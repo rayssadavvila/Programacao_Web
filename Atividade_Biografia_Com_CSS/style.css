@@ -4,18 +4,38 @@
     padding:0;
   }
   
-  body {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
-    text-align: center;
+    color: #8a2be2;/* essa cor vai para todos os textos que estão no body*/
+    text-align: center; /* isso alinha todo o conteúdo de texto na página*/
+}
+
+.container { /* Estilos para o contêiner */
+    /*background-image: radial-gradient(circle at 100% 0%, #9aa1ff 0, #486ee5 50%, #0041be 100%);*/
     /*background: linear-gradient(to bottom, #9aa1ff, #486ee5); /* Substitua essas cores pelas suas preferências */
    /* background: linear-gradient(to right, #FF5733, #6B8E23);*/
-    background-image: radial-gradient(circle at 100% 0%, #9aa1ff 0, #486ee5 50%, #0041be 100%);
-  }
+    min-height: 100vh; /* Garante que o contêiner tenha pelo menos a altura da janela do navegador e aí o gradiente vai até o final da página */
+}
 
-  .imagem-perfil{
+.caixa-de-texto{
+    color: white;
+    margin: 20px; /* Adiciona 20 pixels de margem EXTERNA em todas as direções */
+    /*background-color: #7e4bb1; /* Cor de fundo da caixa de texto */
+    background-image: radial-gradient(circle at 100% 0%, #773fab  0, #8a2be2 50%, #6269cc 100%);
+    padding: 20px; /* Espaçamento interno para o conteúdo da caixa de texto */
+    border: 1px solid #ccc; /* Borda da caixa de texto */
+    border-radius: 10px; /* Cantos arredondados */
+    /*word-wrap: break-word; controla o comportamento das quebras de linha de palavras longas. Você pode usá-la para forçar as palavras a quebrar e criar parágrafos homogêneos. */
+    
+}
+
+.imagem-perfil{
     width: 100px; 
     height: 100px; 
     border-radius: 50%; 
-  }
-  
+}
+
+.audio-css{
+   background-color: #773fab;
+   padding: 10px;
+}

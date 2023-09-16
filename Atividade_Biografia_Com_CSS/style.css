@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-align: center;
+    /*background: linear-gradient(to bottom, #9aa1ff, #486ee5); /* Substitua essas cores pelas suas preferências */
+   /* background: linear-gradient(to right, #FF5733, #6B8E23);*/
+    background-image: radial-gradient(circle at 100% 0%, #9aa1ff 0, #486ee5 50%, #0041be 100%);
+  }
+
+  .imagem-perfil{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+  }
+  

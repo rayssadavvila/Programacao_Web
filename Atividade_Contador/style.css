@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a2be2;/* essa cor vai para todos os textos que estão no body*/
+    text-align: center; /* isso alinha todo o conteúdo de texto na página*/
+  }
+
+.container{
+    background-color: aqua;
+    padding: 60px;
+    margin: 100px;
+    border-radius: 10px;
+}
+.button-css{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    border: none;
+    padding: 8px;
+}

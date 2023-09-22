@@ -8,4 +8,32 @@ body{
     font-family: Tahoma, sans-serif;
     color: antiquewhite;
     background-color: #002D0C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso ajuda a centralizar verticalmente em relação à janela de visualização */
+    margin: 0;
+}
+
+.button-css{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: aliceblue;
+    background: rgb(12,34,0);
+    background: linear-gradient(90deg, rgba(12,34,0,1) 0%, rgba(57,187,98,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.regras{
+    background-color: rgb(132, 23, 23);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 5px;
+   
 }

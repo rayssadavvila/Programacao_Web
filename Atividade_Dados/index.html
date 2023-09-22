@@ -8,14 +8,30 @@
 </head>
 <body>
     <h1>CASSINO'S GAME</h1>
-    <p>
-        REGRAS:
-        
-    </p>
+    <br>
+   <!-- <div class="regras">
+        <p>
+            REGRAS:
+            <br>
+           1- Na primeira vez jogando (Linha de passe) o jogador:
+                1.1- GANHA quando os dados somados dão 7 ou 11
+                1.2- PERDE quando os dados somados dão 2, 3 ou 12
+            <br>
+           2- Se os dados somados resultarem em 4,5,6,8,9 ou 10, recebe pontuação.
+           <br>
+           3- Depois que recebe essa pontuação (número resultante da soma dos dados que caiu):
+                3.1 - GANHA se nessa próxima rodada cair o mesmo número resultante da soma dos dados
+                3.2 - PERDE se nessa próxima rodada cair o número 7
+        </p>
+    </div>-->
+   
     <div class="container">
-        <h1 id="valor"> 0 </h1>
-        <button id="btAumentar" class="button-css"> AUMENTAR</button>
-        <button id="btDiminuir" class="button-css"> DIMINUIR</button>
+        <div class="dados">
+            <img src="Imagens/Dado1.png" id="dado1">
+            <img src="Imagens/Dado1.png" id="dado2">
+        </div>
+        <br>
+        <button id="botaoJogar" class="button-css"> JOGAR</button>
     </div>
 
     <script src="script.js"></script>

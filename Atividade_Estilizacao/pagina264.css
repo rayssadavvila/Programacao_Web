@@ -12,9 +12,11 @@ body{
 }
 
 footer{
-    height: 100px;
+    height: 80px;
     width: 90%;
     background-color: gray;
+    text-align: center;
+    margin: auto;
 }
 
 .imagem-sapato{

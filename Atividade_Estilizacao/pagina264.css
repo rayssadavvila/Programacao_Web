@@ -9,6 +9,7 @@ body{
     background: linear-gradient(90deg, rgba(12,34,0,1) 0%, rgba(57,187,98,1) 100%, rgba(0,212,255,1) 100%);
     text-align: center;
     margin: auto;
+    align-items: center;
 }
 
 footer{
@@ -17,6 +18,7 @@ footer{
     background-color: gray;
     text-align: center;
     margin: auto;
+    align-content: center;
 }
 
 .imagem-sapato{

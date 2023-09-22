@@ -25,10 +25,11 @@ footer{
 
 .sapato{
     background-color: greenyellow;
-    width: 150px;
+    width: 220px;
     height: 350px;
     display: flex;
     align-items: center;
     align-content: space-between;
     float: left;
+    margin: 10px;
 }

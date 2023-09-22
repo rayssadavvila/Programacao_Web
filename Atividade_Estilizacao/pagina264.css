@@ -12,3 +12,15 @@ body{
 footer{
     background-color: gray;
 }
+
+.imagem-sapato{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+}
+
+.sapato{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}

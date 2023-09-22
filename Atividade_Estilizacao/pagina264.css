@@ -47,6 +47,7 @@ footer{
 .botao-comprar{
     padding: 10px;
     background-color: darkolivegreen;
-    color: darkgreen;
+    color: whitesmoke;
     font: bold;
+    border: none;
 }

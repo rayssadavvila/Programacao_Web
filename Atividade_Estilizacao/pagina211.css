@@ -1,9 +1,13 @@
 
 body{
     background-image: url("https://www.adobe.com/content/dam/cc/us/en/products/photoshop/change-background-color/how-to-change-background-color-in-photoshop_fb-img_1200x800.jpg");
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
 }
 h1{
     background-color: tomato;
     border-color: greenyellow;
     border-radius: 2px;
+
 }

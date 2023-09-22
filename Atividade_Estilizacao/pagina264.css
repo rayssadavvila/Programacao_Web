@@ -28,4 +28,5 @@ footer{
     display: flex;
     align-items: center;
     align-content: space-between;
+    float: left;
 }

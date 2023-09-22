@@ -38,3 +38,7 @@ footer{
     border-radius: 5px;
     font-weight: bold;
 }
+
+.texto{
+    clear: left;
+}

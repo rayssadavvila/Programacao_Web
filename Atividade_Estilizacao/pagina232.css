@@ -1,0 +1,12 @@
+.vermelho{
+    width: 700px;
+    padding: 0px;
+    background-color: tomato;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso ajuda a centralizar verticalmente em relação à janela de visualização */
+    margin: 0;
+}

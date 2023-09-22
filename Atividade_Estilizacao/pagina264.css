@@ -7,6 +7,8 @@ body{
     height:40%;
     background: rgb(12,34,0);
     background: linear-gradient(90deg, rgba(12,34,0,1) 0%, rgba(57,187,98,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    margin: auto;
 }
 
 footer{
@@ -23,4 +25,5 @@ footer{
     background-color: greenyellow;
     width: 200px;
     height: 200px;
+    display: flex;
 }

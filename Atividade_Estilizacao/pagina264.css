@@ -12,7 +12,7 @@ body{
 }
 
 footer{
-    height: 80px;
+    height: 40px;
     width: 90%;
     background-color: gray;
     text-align: center;
@@ -50,4 +50,5 @@ footer{
     color: whitesmoke;
     font: bold;
     border: none;
+    
 }

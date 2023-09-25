@@ -1,13 +1,13 @@
 const listaPessoas = document.getElementById("listaPessoas");
 const btAnterior = document.getElementById("btAnterior");
 const btProxima = document.getElementById("btProxima");
-
+let indexAtual = 0;
 const exibirLista = (lista) => {
   listaPessoas.innerHTML = "";
   for (let i = 0; i < lista.length; ++i) {
-    //const li = document.createElement("li");
+    const li = document.createElement("li");
     const text = document.createTextNode(
-      `${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
+    `${indexAtual+ i + 1}. ${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
     );
     li.appendChild(text);
     listaPessoas.appendChild(li);

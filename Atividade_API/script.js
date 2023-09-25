@@ -1,17 +1,17 @@
 const listaPessoas = document.getElementById("listaPessoas");
 const btAnterior = document.getElementById("btAnterior");
 const btProxima = document.getElementById("btProxima");
-let indexAtual = 0;
+let contIndex = 0;
 const exibirLista = (lista) => {
   listaPessoas.innerHTML = "";
   for (let i = 0; i < lista.length; ++i) {
     const li = document.createElement("li");
+    listaPessoas.start = contIndex;
     const text = document.createTextNode(
-    `${indexAtual+ i + 1}. ${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
+      `${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
     );
     li.appendChild(text);
     listaPessoas.appendChild(li);
-    indexAtual = indexAtual + lista.length;
   }
 };
 
@@ -20,12 +20,14 @@ const configurarBotoes = (data) => {
 
   btAnterior.disabled = previous === null;
   btAnterior.onclick = () => {
+    contIndex = contIndex - lista.length;
     fetchAPI(previous);
     btAnterior.disabled = true;
   };
 
   btProxima.disabled = next === null;
   btProxima.onclick = () => {
+    contIndex = contIndex -lista.length;
     fetchAPI(next);
     btProxima.disabled = true;
   };

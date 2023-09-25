@@ -20,14 +20,14 @@ const configurarBotoes = (data) => {
 
   btAnterior.disabled = previous === null;
   btAnterior.onclick = () => {
-    contIndex = contIndex - lista.length;
+    contIndex = contIndex - 10;
     fetchAPI(previous);
     btAnterior.disabled = true;
   };
 
   btProxima.disabled = next === null;
   btProxima.onclick = () => {
-    contIndex = contIndex -lista.length;
+    contIndex = contIndex - 10;
     fetchAPI(next);
     btProxima.disabled = true;
   };

@@ -27,7 +27,7 @@ const configurarBotoes = (data) => {
 
   btProxima.disabled = next === null;
   btProxima.onclick = () => {
-    contIndex = contIndex - 10;
+    contIndex = contIndex + 10;
     fetchAPI(next);
     btProxima.disabled = true;
   };

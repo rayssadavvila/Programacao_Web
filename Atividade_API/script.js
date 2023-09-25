@@ -5,7 +5,7 @@ const btProxima = document.getElementById("btProxima");
 const exibirLista = (lista) => {
   listaPessoas.innerHTML = "";
   for (let i = 0; i < lista.length; ++i) {
-    const li = document.createElement("li");
+    //const li = document.createElement("li");
     const text = document.createTextNode(
       `${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
     );

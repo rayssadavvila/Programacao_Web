@@ -11,6 +11,7 @@ const exibirLista = (lista) => {
     );
     li.appendChild(text);
     listaPessoas.appendChild(li);
+    indexAtual = indexAtual + lista.length;
   }
 };
 

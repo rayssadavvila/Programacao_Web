@@ -1,7 +1,7 @@
 const listaPessoas = document.getElementById("listaPessoas");
 const btAnterior = document.getElementById("btAnterior");
 const btProxima = document.getElementById("btProxima");
-let contIndex = 0;
+let contIndex = 1;
 const exibirLista = (lista) => {
   listaPessoas.innerHTML = "";
   for (let i = 0; i < lista.length; ++i) {

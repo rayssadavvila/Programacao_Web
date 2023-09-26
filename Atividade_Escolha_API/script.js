@@ -19,7 +19,7 @@ const exibirLista = (lista) => {
       })
       .then((data) => {
         exibirLista(data.results);
-        configurarBotoes(data);
+        configurarBotoes([data]);
       });
   };
 

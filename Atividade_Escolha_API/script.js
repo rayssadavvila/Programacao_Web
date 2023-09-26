@@ -18,7 +18,7 @@ const exibirLista = (lista) => {
         return response.json();
       })
       .then((data) => {
-        console.log(data.results);
+        console.log(data);
         exibirLista([data]);
       });
   };

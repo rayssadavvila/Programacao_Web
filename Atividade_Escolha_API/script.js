@@ -22,4 +22,4 @@ const fetchAPI = (url) => {
       exibirLista([data]); 
     });
 };
-fetchAPI("https://www.boredapi.com/api/activity/");
+fetchAPI("https://www.boredapi.com/api/activity/"); // obs, um problema que due fpi quando eu coloquei o link http, e lá no vercel deu conflito por precisar ser https, entao ficar atento a iso

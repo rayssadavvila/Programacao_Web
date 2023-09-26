@@ -22,4 +22,4 @@ const fetchAPI = (url) => {
       exibirLista([data]); 
     });
 };
-fetchAPI("http://www.boredapi.com/api/activity/");
+fetchAPI("https://www.boredapi.com/api/activity/");

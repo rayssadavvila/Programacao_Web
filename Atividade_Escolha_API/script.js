@@ -18,7 +18,7 @@ const exibirLista = (lista) => {
         return response.json();
       })
       .then((data) => {
-        exibirLista(data.results);
+        exibirLista(data);
         configurarBotoes([data]);
       });
   };

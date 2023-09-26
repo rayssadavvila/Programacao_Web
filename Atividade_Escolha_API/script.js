@@ -18,8 +18,8 @@ const exibirLista = (lista) => {
         return response.json();
       })
       .then((data) => {
-        exibirLista(data);
-        configurarBotoes([data]);
+        console.log(data.results);
+        exibirLista([data]);
       });
   };
 

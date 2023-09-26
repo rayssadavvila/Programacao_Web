@@ -18,7 +18,7 @@ body {
   .left {
     flex: 1;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-image: radial-gradient(circle at 100% 0%, #e1fa53  0, #e8f52f 50%, #f3dc0d 100%);
     text-align: center;
   }
   
@@ -28,6 +28,7 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
+    margin: 20px;
   }
   
   h1 {

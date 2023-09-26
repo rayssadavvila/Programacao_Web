@@ -1,7 +1,7 @@
 const listaAtividades = document.getElementById("listaAtividades");
 
 const exibirLista = (lista) => {
-    listaPessoas.innerHTML = "";
+    listaAtividades.innerHTML = "";
     for (let i = 0; i < lista.length; ++i) {
     const li = document.createElement("li");
     const link = document.createElement("a");

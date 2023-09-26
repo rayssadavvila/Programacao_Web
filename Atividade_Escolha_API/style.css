@@ -3,6 +3,10 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-image: url('/Atividade_Escolha_API/Imagem/imagem_da_API.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    text-align: center;
   }
   
   .container {

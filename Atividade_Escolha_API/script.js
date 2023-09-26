@@ -6,7 +6,7 @@ const exibirLista = (lista) => {
     const li = document.createElement("li");
     const link = document.createElement("a");
     link.href = lista[i].link;
-    link.textContent = `${"Atividade: " + lista[i].activity} (${"Tipo" + lista[i].type}) (${"Participantes" + lista[i].participants}) (${"Preço" + lista[i].price}) (${"Acessibilidade" + lista[i].accessibility})`;
+    link.textContent = `${"Atividade: " + lista[i].activity} (${"Tipo: " + lista[i].type}) (${"Participantes: " + lista[i].participants}) (${"Preço:" + lista[i].price + " Reais"}) (${"Acessibilidade: " + lista[i].accessibility})`;
     li.appendChild(link);
     listaAtividades.appendChild(li);
   }
